@@ -152,7 +152,7 @@ We ensure compatibility with modern frameworks and platforms.
 Future-proof your systems with our structured upgrade approach.</Accordion>
 </div>
 </div>
-<div   data-aos="fade-left"  data-aos-offset="50" className=' lg:w-[37%] w-[80%] mt-8 text-gray-300'>
+<div   data-aos="fade-left"  data-aos-offset="50" className=' lg:w-[37%] w-[90%] mt-8 text-gray-300'>
     <img className='w-[100%] h-[500px] rounded-sm' src="./acc.png"/>
 </div>
 
