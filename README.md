@@ -1,12 +1,28 @@
-# React + Vite
+Vayuz Assessment Project
+This project is a React-based implementation of a Figma design for the Vayuz assessment task.
+It uses TailwindCSS for styling, AOS for animations, and React Scroll for smooth page navigation.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features
+Responsive Design: Works on all screen sizes.
 
-Currently, two official plugins are available:
+Smooth Animations: Powered by AOS (Animate On Scroll).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Gradient & Hover Effects: Interactive UI with Tailwind.
 
-## Expanding the ESLint configuration
+Smooth Scrolling: Using react-scroll for in-page navigation.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Contact Form: Styled inputs with animated underline on focus.
+
+Tooltip & Scroll-to-Top: Interactive arrow button with hover tooltip.
+
+Tech Stack
+React (Vite)
+
+TailwindCSS
+
+AOS (Animate on Scroll)
+
+React Scroll
+
+React Router DOM
+
