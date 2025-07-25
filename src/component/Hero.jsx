@@ -11,11 +11,11 @@ const Hero = () => {
     AOS.init({ duration: 800, once: true }); 
   }, []);
   return (
-    <div className='mt-4 flex gap-10 flex-col  '>
+    <div className='  mt-4 flex gap-10 flex-col  '>
         {/* first div */}
         <div className='flex flex-wrap md:flex-row '>
             {/* leftsec */}
-            <div className='lg:w-[41%] w-[70%] w-[85%] p-6 m-4 mt-19 md:p-2 '>
+            <div className='md:w-[41%] w-[85%]  p-6 m-4 mt-19 md:p-2 '>
                 <div  data-aos="fade-down" className='text-white '>
                 <p className='text-5xl font-playfair '>Unlock the Potential of Flutter</p>
                 <p className='mt-4 text-xl font-extralight font-sans tracking-wider'> Your Premier Partner for Cross-Platform App Excellence!</p>
@@ -28,12 +28,12 @@ const Hero = () => {
                 </div>
             </div>
             {/* right sec div1 */}
-            <div data-aos="fade-right" className='relative lg:flex-1 mt-3 '>
+            <div data-aos="fade-right" className='relative  w-[85%] lg:flex-1 mt-3 '>
                 {/* gradient */}
                 <div className='absolute inset-0 right-0 bottom-0 z-0'>
-                    <div className='  w-[400px] h-[500px] bg-gradient-to-bl from-[#2BA9CC] via-[#6dcf9f] to-black opacity-30 rounded-full blur-3xl ml-39 mt-7 animate-hue'></div>
+                    <div className='   h-[200px]  md:w-[400px] md:h-[500px] bg-gradient-to-bl from-[#2BA9CC] via-[#6dcf9f] to-black opacity-30 rounded-full  blur-3xl md:ml-39 mt-27 md:mt-7 animate-hue'></div>
                 </div>
-                <img className=" w-[84%] h-[100%] relative z-10 rounded-xl " src="./reactcode.png"/>
+                <img className=" h-[90%]  md:w-[84%] md:h-[100%] relative z-10 rounded-xl " src="./reactcode.png"/>
                 {/* floating =code  */}
                 <div className='z-20 absolute hidden lg:block lg:bottom-[-110px] lg:h-41 lg:w-79 lg:left-[100px] rounded-xl p-3 bg-gray-950 text-white text-[10px]'>
                     
@@ -51,7 +51,7 @@ const Hero = () => {
             &nbsp;&nbsp;)<br />
             {'})'}</code> </div>
             {/* second code */}
-            <div className='z-20 hidden sm:block absolute bottom-[80px] h-20 w-70 right-[7px] rounded-xl p-3 bg-gray-950 text-white text-[10px]'>
+            <div className='z-20 hidden md:block absolute bottom-[80px] h-20 w-70 right-[7px] rounded-xl p-3 bg-gray-950 text-white text-[10px]'>
                     
                         <div className='w-full flex gap-1 h-5'>
                             <span className='h-2 w-2  inline-block  rounded-full bg-red-600'></span>
@@ -68,13 +68,13 @@ const Hero = () => {
 
             </div>
             {/* second div */}
-            <div className=' m-4 p-2 mt-37 gap-10 text-white flex md:flex-row flex-wrap justify-center items-center '>
+            <div className=' m-4 p-2 md:mt-37  mt-10 gap-10 text-white flex flex-col md:flex-row flex-wrap justify-center items-center '>
                 {/* firtsec */}
-                <div data-aos="fade-up"  data-aos-delay="100" className=' xl:flex-[1] pt-7 xl:px-2 px-5'>
+                <div data-aos="fade-up"  data-aos-delay="100" className=' w-[70%] xl:flex-[1] pt-7 xl:px-2 '>
                     <p className='text-5xl font-playfair'>Flutter's Dawn</p>
                     <p className='text-md mt-1 tracking-wide'> History of Fluter</p>
                 </div>
-                <div data-aos="fade-up"  data-aos-delay="100" className='  xl:flex-[4] xl:px-18 px-5'>
+                <div data-aos="fade-up"  data-aos-delay="100" className='  xl:flex-[4] xl:px-18 px-3'>
                 
                     <p className='text-[15.5px] tracking-wider font-extralight  text-gray-200 font-sans'> Uncover the fascinating story of Flutter in 'Flutter’s Dawn: History of Flutter.’ From humble origins to global acclaim, delve into its captivating narrative. Explore milestones, triumphs, and challenges. Whether tech enthusiast or curious mind, join us on this captivating journey!
                         <Link className= ' text-[15.5px] text-cyan-400'> {" "}Click to begin!</Link>
@@ -99,24 +99,24 @@ const Hero = () => {
 
         </div>
         {/* third div */}
-        <div  className='flex mt-20 flex-col mx-auto'>
+        <div  className='ml-5 flex mt-20 flex-col md:mx-auto'>
                     <div className='p-4 flex flex-col justify-center items-center gap-3'>
                         <p className='text-5xl text-white font-extralight tracking-tight font-playfair'>Our Dynamic Services Suite!</p>
                         <p className='font-sans text-xl font-extralight tracking-wider text-gray-300'>Embrace Innovation: Let's Create Together!</p>
                     </div>
-                    <div className='mx-auto px-10 lg:px-39 text-center'>
+                    <div className='mx-auto pr-10 pl-4 lg:px-39 md:text-center'>
                         <p className='text-gray-300  text-[15px] font-extralight'>Step into innovation! Explore our range of services and let’s create something extraordinary together.
                         Your vision, our expertise. Let’s begin!</p>
                     </div>
                  </div>
         {/* fouth div */}
-        <div className='flex m-5 mr-[-10px]  mt-10 gap-2 flex-wrap '>
+        <div className=' flex m-5  md:mr-[-10px]   mt-10 gap-2 flex-wrap '>
             {/* text */}
-<div data-aos="fade-up"  data-aos-offset="100" className='lg:w-[60%] w-[80%] text-justify'>
-    <div>
+<div data-aos="fade-up"  data-aos-offset="100" className=' md:pl-[inherit] lg:w-[60%] w-[80%] '>
+    <div className=''>
     <p className=' text-3xl font-playfair tracking-wide text-gray-300'>Flutter App Development</p>
     
-    <p className='mt-3 pr-20 tracking-wider text-sm leading-snug font-sans font-extralight text-gray-400'>Unlock endless possibilities with Flutter App Development. Build beautiful, high-performance applications for any platform – faster and easier than ever before. Ready to revolutionize your app experience?<NavLink className="text-cyan-500" to="#"> {" "}Let’s get started today!</NavLink> </p>
+    <p className='mt-3 md:pr-20 tracking-wider text-sm leading-snug font-sans font-extralight text-gray-400'>Unlock endless possibilities with Flutter App Development. Build beautiful, high-performance applications for any platform – faster and easier than ever before. Ready to revolutionize your app experience?<NavLink className="text-cyan-500" to="#"> {" "}Let’s get started today!</NavLink> </p>
     </div>
     {/* accordion */}
     <div className='mt-7 text-gray-300'>
