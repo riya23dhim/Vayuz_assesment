@@ -2,6 +2,9 @@
 @import 'tailwindcss';
 
 
+/* *{
+  outline:1px solid red;
+} */
 
 
 @layer theme, base, components, utilities;
@@ -15,6 +18,27 @@
     font-family: 'Open Sans', sans-serif;
   }
 
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 12px !important; /* Reduce base font size */
+  }
+
+  .scale-wrapper {
+    transform: scale(0.8) !important; /* Shrink layout */
+    transform-origin: top center !important;
+  }
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 10px !important;
+  }
+
+  .scale-wrapper {
+    transform: scale(0.7) !important; /* Further shrink on very small screens */
+  }
 }
 
 @keyframes swirl {
@@ -74,8 +98,7 @@
   
 
   
-  
-  
+ 
   }
   :root {
     --grid-search:#81007f;

@@ -13,20 +13,23 @@ function App() {
   
   return(
     //main div
-    <div className='min-h-screen  bg-black overflow-y-hidden  overflow-x-hidden  '>
-      <div className='  lg:mx-20 mx-5 min-h-screen flex bg-main-dark-bg '>
+    <div className='min-h-screen  bg-black overflow-y-hidden overflow-x-hidden'>
+  
+      <div className='  lg:mx-20 mx-2 min-h-screen flex bg-main-dark-bg  '>
       {/* sidebar and main page */}
-      <div className='flex hidden md:flex  w-[215px]  text-white flex-col border-r-[1.5px] border-r-border'>
+      <div className='flex flex-shrink-0 pr-3 w-[70px] md:pr-0  md:w-[215px]  text-white flex-col border-r-[1.5px] border-r-border'>
         <Sidebar/>
 
       </div>
       {/* main page */}
-      <div className='min-h-screen md:flex-1 w-full  '>
+      <div className='min-h-screen  flex-1 min-w-0   '>
         <Header />
         <Hero/>
         <Footer/>
        
       </div>
+  
+ 
       </div>
     </div>
   )
